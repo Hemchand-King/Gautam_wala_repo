@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""join this group forr help-- @torrentleechgdrivesupport\n\n And also don't forget to fork this repo: <a href="https://github.com/gautamajay52/TorrentLeech-Gdrive">TorrentLeech-Gdrive</a>""", disable_web_page_preview=True)
+    await message.reply_text("""Welcome To @LeechZone 😎 \n\n <b><u>I Can Leech Files To Telegram & Gdrive</u></b> \n\n Do One Leech & Wait For It To Complete Before Doing Another \n\n <a href="https://t.me/LeechZone/10966">⚠ READ GROUP PINNED MESSAGE RULES ⚠</a>""", disable_web_page_preview=True) 
 
 
 async def rename_message_f(client, message):
