@@ -448,9 +448,9 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                 else :
                    msg += f"\n<b>○ Peers:</b> <code>{file.connections}</code> || <b>○ Seeders:</b> <code>{file.num_seeders}</code>"
 
-                # msg += f"\nStatus: {file.status}"
-                msg += f"\n<b>Time Left:</b> {file.eta_string()}"
-                msg += f"\n<b>GID:</b> <code>{gid}</code>"
+                # msg += f"\n<b>○ Status:</b> {file.status}"
+                msg += f"\n<b>○ Time Left:</b> {file.eta_string()}"
+                msg += f"\n<b>○ GID:</b> <code>{gid}</code>"
                 inline_keyboard = []
                 ikeyboard = []
                 ikeyboard.append(InlineKeyboardButton("Cancel 🚫", callback_data=(f"cancel {gid}").encode("UTF-8")))
