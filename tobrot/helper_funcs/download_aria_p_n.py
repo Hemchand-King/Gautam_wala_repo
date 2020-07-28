@@ -444,7 +444,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                 msg += f"\n<b>○ Size:</b> <b>{file.total_length_string()}</b>"
 
                 if is_file is None :
-                   msg += f"\n<b>Connections:</b> {file.connections}"
+                   msg += f"\n<b>○ Connections:</b> {file.connections}"
                 else :
                    msg += f"\n<b>○ Peers:</b> <code>{file.connections}</code> || <b>○ Seeders:</b> <code>{file.num_seeders}</code>"
 
