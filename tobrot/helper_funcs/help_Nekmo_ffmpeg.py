@@ -24,7 +24,7 @@ async def take_screen_shot(video_file, output_directory, ttl):
         output_directory,
         str(time.time()) + ".jpg"
     )
-    if video_file.upper().endswith(("MKV", "MP4", "AVI", "WEBM")):
+    if video_file.upper().endswith(("MKV", "MP4", "M4V", "AVI", "WEBM")):
         file_genertor_command = [
             "ffmpeg",
             "-ss",
