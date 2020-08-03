@@ -2,7 +2,7 @@ aiohttp
 aria2p
 hachoir
 Pillow
-https://github.com/pyrogram/pyrogram/archive/asyncio.zip
+https://github.com/Boltcloud/pyrogram/archive/asyncio.zip
 tgcrypto
 git+https://github.com/Boltcloud/youtube-dl
 hurry.filesize
