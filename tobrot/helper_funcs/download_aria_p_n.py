@@ -439,7 +439,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                     pass
                 #
                 msg = f"\n<b>○ File:</b> `<code>{downloading_dir_name}</code>`"
-                msg += f"\n<b>○ Speed:</b> <code>{file.download_speed_string()} 🌝 || {file.upload_speed_string()} 🌚</code>"
+                msg += f"\n<b>○ Speed:</b> <code>{file.download_speed_string()} ⬇️ || {file.upload_speed_string()} ⬆️</code>"
                 msg += f"\n<b>○ Progress:</b> <code>{file.progress_string()}</code>"
                 msg += f"\n<b>○ Size:</b> <b>{file.total_length_string()}</b>"
 
@@ -450,7 +450,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
 
                 # msg += f"\n<b>○ Status:</b> {file.status}"
                 msg += f"\n<b>○ Time Left:</b> {file.eta_string()}"
-                msg += f"\n<b>○ GID:</b> <code>{gid}</code>\n\n<b>© @LeechZone | @Modzilla</b>"
+                msg += f"\n<b>○ GID:</b> <code>{gid}</code>\n\n<b>© @MaxxBots | @MaxxPrivate</b>"
                 inline_keyboard = []
                 ikeyboard = []
                 ikeyboard.append(InlineKeyboardButton("Cancel 🚫", callback_data=(f"cancel {gid}").encode("UTF-8")))
